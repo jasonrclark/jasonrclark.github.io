@@ -4,17 +4,30 @@ layout: default
 
 <div class="home">
 
-  <div class="posts">
-    {% for post in paginator.posts %}
-      <div class="post">
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 post-title">{{ post.title }}</h3>
-          <p class="post-summary">{{ post.summary }}</p>
-        </a>
-      </div>
-    {% endfor %}
-  </div>
+  <p class="post-summary">
+    I fell in love with programming as a young boy watching my dad work in Clipper
+    and dBase III (no, really). The obsession sparked there continues to this day.
+    I work on the Ruby Agent at New Relic, contribute to Shoes in my spare
+    time, cycle, homebrew and hang out with my family.
+  </p>
 
-  {% include pagination.html %}
+  <a class="post-link" href="/speaking">
+    <h3 class="h2 post-title">Speaking</h3>
+  </a>
+  <p class="post-summary">What I've been saying</p>
+
+  <a class="post-link" href="/coding">
+    <h3 class="h2 post-title">Coding</h3>
+  </a>
+  <p class="post-summary">What I've been coding</p>
+
+  <a class="post-link" href="/writing">
+    <h3 class="h2 post-title">Writing</h3>
+  </a>
+  <p class="post-summary">What I've been writing</p>
+
+  <a class="post-link" href="/reading">
+    <h3 class="h2 post-title">Reading</h3>
+  </a>
+  <p class="post-summary">What I've been reading</p>
 </div>
