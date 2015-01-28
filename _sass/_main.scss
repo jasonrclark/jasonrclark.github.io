@@ -89,6 +89,11 @@ body {
   opacity: 0.88;
 }
 
+.column {
+  display: inline;
+  float: left;
+  width: 50%
+}
 /*
   Table styles copied from Bootstrap
   Copyright (c) 2013 Twitter, Inc
@@ -155,10 +160,10 @@ table {
   padding-bottom: 0;
 }
 
-.post-link .post-title {
+.post-title {
   margin-top: 0;
   font-weight: 600;
-  color: #333;
+  color: #0B2161;
 }
 
 .post-footer {
@@ -334,6 +339,7 @@ h6,
 @media screen and (min-width: 48em) {
   .site-header .site-title {
     float: left;
+    color: #0B2161
   }
 
   .meta,
