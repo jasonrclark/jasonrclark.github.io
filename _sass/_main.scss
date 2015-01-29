@@ -92,8 +92,16 @@ body {
 .column {
   display: inline;
   float: left;
-  width: 50%
 }
+
+.left-column {
+  width: 60%
+}
+
+.right-column {
+  width: 40%
+}
+
 /*
   Table styles copied from Bootstrap
   Copyright (c) 2013 Twitter, Inc
