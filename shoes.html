@@ -6,7 +6,8 @@ layout: default
 
 <p>Welcome to Shoes Minute! This is your go-to spot for quick introductory videos about <a href="http://shoesrb.com">Shoes</a>, the simplest way to build GUI applications in Ruby!</p>
 
-{% for post in site.categories.shoes %}
+{% assign shoesPosts = site.categories.shoes | sort: "date" %}
+{% for post in shoesPosts %}
   <h2><a href="{{ post.video_url }}">{{ post.title }}</a></h2>
   <div class="video_container">
   <iframe src="{{ post.embed_url }}" frameborder="0" allowfullscreen></iframe>
