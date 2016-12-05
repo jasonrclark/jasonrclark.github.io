@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://jasonrclark.com"
 
 # Google analytics
-google_analytics:
+google_analytics: UA-88451017-1
 
 # Optional features
 animated:           false
