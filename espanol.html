@@ -16,18 +16,60 @@
         font-family: sans-serif;
       }
     </style>
+    <script src="./espanol.js"></script>
     <script>
-      document.addEventListener('click', function (event) {
-        var word = document.getElementById("word");
-        var solution = document.getElementById("solution");
+      var currentWord = undefined;
+      var currentSolution = undefined;
 
-        solution.innerText = word.innerText;
+      function rand(max) {
+        return Math.floor(Math.random() * Math.floor(max));
+      }
+
+      function selectWord() {
+        var index = rand(words.length);
+        var word = words[index]
+
+        if (rand(2) === 0) {
+          currentWord = word[1];
+          currentSolution = word[0];
+        } else {
+          currentWord = word[0];
+          currentSolution = word[1];
+        }
+      }
+
+      function pickNewWord() {
+        selectWord();
+        wordElement.innerText = currentWord;
+        solutionElement.innerText = "";
+      }
+
+      function revealSolution() {
+        wordElement.innerText = currentWord;
+        solutionElement.innerText = currentSolution;
+        currentWord = undefined;
+        currentSolution = undefined;
+      }
+
+      document.addEventListener('click', function (event) {
+        if (currentWord === undefined) {
+          pickNewWord();
+        } else {
+          revealSolution();
+        }
+      });
+
+      document.addEventListener('DOMContentLoaded', function() {
+        wordElement = document.getElementById("word");
+        solutionElement = document.getElementById("solution");
+
+        pickNewWord();
       });
     </script>
   </head>
   <body>
     <div class="main">
-      <p id="word">Coming soon...</p>
+      <p id="word">Loading...</p>
       <br/>
       <p id="solution"></p>
     </div>
