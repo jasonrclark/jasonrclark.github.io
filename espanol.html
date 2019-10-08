@@ -3,18 +3,33 @@
     <style>
       div.main {
         height: 10em;
-        display: flex;
-        align-items: center;
-        justify-content: center
+        position: relative
       }
       div.main p {
-        margin: 0
+        margin: 0;
+        margin-top:4em;
+        position: relative;
+        left: 50%;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        font-size: 4em;
+        font-family: sans-serif;
       }
     </style>
+    <script>
+      document.addEventListener('click', function (event) {
+        var word = document.getElementById("word");
+        var solution = document.getElementById("solution");
+
+        solution.innerText = word.innerText;
+      });
+    </script>
   </head>
   <body>
     <div class="main">
-      <p class="word">Coming soon...</p>
+      <p id="word">Coming soon...</p>
+      <br/>
+      <p id="solution"></p>
     </div>
   </body>
 </html>
