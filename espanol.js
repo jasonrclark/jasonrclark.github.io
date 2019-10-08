@@ -29,4 +29,5 @@ var words = [
   ["volver", "to return"],
   ["decir", "to say"],
   ["olvidar", "to forget"],
+  ["pedir", "to ask for"],
 ];
