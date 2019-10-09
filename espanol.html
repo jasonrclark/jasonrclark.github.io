@@ -26,8 +26,11 @@
       }
 
       function selectWord() {
+        countElement.innerText = words.length;
+
         var index = rand(words.length);
         var word = words[index]
+        words.splice(index, 1);
 
         if (rand(2) === 0) {
           currentWord = word[1];
@@ -62,12 +65,14 @@
       document.addEventListener('DOMContentLoaded', function() {
         wordElement = document.getElementById("word");
         solutionElement = document.getElementById("solution");
+        countElement = document.getElementById("count");
 
         pickNewWord();
       });
     </script>
   </head>
   <body>
+    <p id="count"></p>
     <div class="main">
       <p id="word">Loading...</p>
       <br/>
