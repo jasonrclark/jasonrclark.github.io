@@ -1,9 +1,15 @@
 <html>
   <head>
     <style>
+      body {
+        font-family: sans-serif;
+      }
+      div.header p {
+        font-size: x-large;
+      }
       div.main {
         height: 10em;
-        position: relative
+        position: relative;
       }
       div.main p {
         margin: 0;
@@ -13,7 +19,6 @@
         text-align: center;
         transform: translate(-50%, -50%);
         font-size: 8em;
-        font-family: sans-serif;
       }
     </style>
     <script src="./espanol.js"></script>
@@ -72,7 +77,9 @@
     </script>
   </head>
   <body>
-    <p id="count"></p>
+    <div class="header">
+      <p id="count"></p>
+    </div>
     <div class="main">
       <p id="word">Loading...</p>
       <br/>
