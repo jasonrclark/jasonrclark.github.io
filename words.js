@@ -51,7 +51,6 @@ var words = [
   ["ofrecer", "to offer"],
   ["navigador", "browser"],
   ["mitad", "half"],
-  ["inicio", "half"],
   ["excusa", "excuse"],
   ["cantidad", "quantity"],
   ["durante", "during"],
