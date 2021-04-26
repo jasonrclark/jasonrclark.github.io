@@ -1,10 +1,21 @@
 <html>
   <head>
     <style>
+      body {
+        background: darkgoldenrod;
+      }
     </style>
+    <script>
+      function onClick() {
+        let name = document.getElementById("name").value;
+        alert("Hola " + name);
+      }
+    </script>
   </head>
   <body>
     <h1>Zelda Knight</h1>
     <p>by Asher and Jason Clark</p>
+    <input id="name"/>
+    <button onClick="onClick();">Do The Thing</button>
   </body>
 </html>
