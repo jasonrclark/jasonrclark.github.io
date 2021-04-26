@@ -4,6 +4,15 @@
       body {
         background: darkgoldenrod;
       }
+
+      .start button,input {
+        font-size: xxx-large;
+      }
+
+      .start button {
+        background: green;
+        margin-top: 10px;
+      }
     </style>
     <script>
       function onClick() {
@@ -15,7 +24,9 @@
   <body>
     <h1>Zelda Knight</h1>
     <p>by Asher and Jason Clark</p>
-    <input id="name"/>
-    <button onClick="onClick();">Do The Thing</button>
+    <div class="start" style="text-align:center;" >
+      <div><input autofocus id="name"/></div>
+      <div><button onClick="onClick();">Comenzar</button></div>
+    </div>
   </body>
 </html>
