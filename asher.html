@@ -1,9 +1,9 @@
 <html>
   <head>
     <style>
-      body {
-        background: darkgoldenrod;
-      }
+body {
+  background: darkgoldenrod;
+}
 
       .start button,input {
         font-size: xxx-large;
@@ -18,13 +18,16 @@
       function onClick() {
         let name = document.getElementById("name").value;
         alert("Hola " + name);
+
+        document.getElementById("start").hidden = true;
+        document.body.style.backgroundColor = "lightblue";
       }
     </script>
   </head>
   <body>
     <h1>Zelda Knight</h1>
     <p>by Asher and Jason Clark</p>
-    <div class="start" style="text-align:center;" >
+    <div id="start" class="start" style="text-align:center;" >
       <div><input autofocus id="name"/></div>
       <div><button onClick="onClick();">Comenzar</button></div>
     </div>
