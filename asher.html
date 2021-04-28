@@ -1,35 +1,59 @@
 <html>
   <head>
     <style>
-body {
-  background: darkgoldenrod;
-}
+      body {
+        background: darkgoldenrod;
+      }
 
-      .start button,input {
+      #startPage {
+        text-align:center;
+      }
+
+      #startPage button,input {
         font-size: xxx-large;
       }
 
-      .start button {
+      #startPage button {
         background: green;
         margin-top: 10px;
       }
-    </style>
-    <script>
-      function onClick() {
-        let name = document.getElementById("name").value;
-        alert("Hola " + name);
 
-        document.getElementById("start").hidden = true;
-        document.body.style.backgroundColor = "lightblue";
+      #firstPage {
+        background: lightblue;
+        height: 100%;
+        width: 100%
       }
-    </script>
+
+      #me {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        background: black;
+        left: 10px;
+        top: 100px;
+      }
+    </style>
   </head>
   <body>
-    <div id="start" class="start" style="text-align:center;" >
+    <div id="me" class="me" hidden></div>
+
+    <div id="startPage">
       <h1>Zelda Knight</h1>
       <p>by Asher and Jason Clark</p>
-      <div><input autofocus id="name"/></div>
-      <div><button onClick="onClick();">Comenzar</button></div>
+      <div><input id="nameTextbox" autofocus /></div>
+      <div><button id="startButton">Comenzar</button></div>
     </div>
+
+    <div id="firstPage" hidden>
+      <h1>Zelda Knight</h1>
+    </div>
+
+    <script>
+      startButton.onclick = function onClick() {
+        startPage.hidden = true;
+        firstPage.hidden = false;
+        me.hidden = false;
+      }
+    </script>
   </body>
 </html>
