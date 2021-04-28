@@ -24,13 +24,21 @@
         width: 100%
       }
 
+      #firstGround {
+        position: absolute;
+        background: brown;
+        width: 100%;
+        height: 750px;
+        top: 500px;
+      }
+
       #me {
         position: absolute;
         height: 100px;
         width: 100px;
         background: black;
         left: 10px;
-        top: 100px;
+        top: 400px;
       }
     </style>
   </head>
@@ -46,14 +54,50 @@
 
     <div id="firstPage" hidden>
       <h1>Zelda Knight</h1>
+      <div id="firstGround" />
     </div>
 
     <script>
-      startButton.onclick = function onClick() {
+      startButton.onclick = begin;
+
+      function begin() {
         startPage.hidden = true;
         firstPage.hidden = false;
         me.hidden = false;
+
+        window.onkeydown = (e) => {
+          if (e.code === "ArrowRight") {
+            moveLeft(10);
+          } else if (e.code === "ArrowLeft") {
+            moveRight(10);
+          } else if (e.code === "Space") {
+            moveUp(100);
+            setTimeout(() => { moveDown(25) }, 100)
+            setTimeout(() => { moveDown(25) }, 200)
+            setTimeout(() => { moveDown(25) }, 300)
+            setTimeout(() => { moveDown(25) }, 400)
+          } else {
+            console.log(e);
+          }
+        }
       }
+
+      function moveLeft(amount) {
+        me.style.left = (me.offsetLeft + amount) + "px";
+      }
+
+      function moveRight(amount) {
+        moveLeft(-amount);
+      }
+
+      function moveUp(amount) {
+        me.style.top = (me.offsetTop - amount) + "px";
+      }
+
+      function moveDown(amount) {
+        moveUp(-amount);
+      }
+
     </script>
   </body>
 </html>
