@@ -24,3 +24,6 @@ jobs:
         run: |
           ruby -v
           echo '${{ fromJson(steps.get_issue.outputs.data).body }}'
+          git add reading.html
+          git commit -m "Reading"
+          git push origin main
