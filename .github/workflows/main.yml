@@ -26,6 +26,8 @@ jobs:
 
           git config --global user.email "jason@jasonrclark.net"
           git config --global user.name "Jason R. Clark"
+          git status
+          git diff
           git add reading.html
           git commit -m 'Reading
 
