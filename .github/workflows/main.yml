@@ -28,5 +28,7 @@ jobs:
           git config --global user.email "jason@jasonrclark.net"
           git config --global user.name "Jason R. Clark"
           git add reading.html
-          git commit --allow-empty -m "Reading"
+          git commit --allow-empty -m 'Reading
+          
+          Closes #${{ github.event.issue.number }}'
           git push origin main
