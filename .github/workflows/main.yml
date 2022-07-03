@@ -28,5 +28,5 @@ jobs:
           git config --global user.email "jason@jasonrclark.net"
           git config --global user.name "Jason R. Clark"
           git add reading.html
-          git commit -m "Reading"
+          git commit --allow-empty -m "Reading"
           git push origin main
