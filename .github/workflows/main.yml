@@ -22,13 +22,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run a multi-line script
         run: |
-          ruby -v
-          echo '${{ fromJson(steps.get_issue.outputs.data).body }}'\
+          scripts/reading-list.rb '${{ fromJson(steps.get_issue.outputs.data).body }}'
 
           git config --global user.email "jason@jasonrclark.net"
           git config --global user.name "Jason R. Clark"
           git add reading.html
-          git commit --allow-empty -m 'Reading
-          
+          git commit -m 'Reading
+
           Closes #${{ github.event.issue.number }}'
           git push origin main
