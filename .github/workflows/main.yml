@@ -23,4 +23,4 @@ jobs:
       - name: Run a multi-line script
         run: |
           ruby -v
-          echo "${{ toJson(steps.get_issue.outputs.data).body }}"
+          echo '${{ steps.get_issue.outputs.data }}'
