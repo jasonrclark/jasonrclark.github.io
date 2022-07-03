@@ -16,4 +16,7 @@ new_content = original_content.sub(/<ol.*>/) do |header|
   "#{header}\n#{new_books.chomp}"
 end
 
-puts new_content
+File.open("./reading.html", "w") do |file|
+  file.puts(new_content)
+  file.close()
+end
