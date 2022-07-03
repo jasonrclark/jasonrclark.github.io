@@ -1,4 +1,4 @@
-name: Reading list on Issue open
+name: Reading List on Issue open
 
 on:
   issues:
