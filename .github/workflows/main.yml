@@ -1,0 +1,14 @@
+name: Reading list on Issue open
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Run a multi-line script
+        run: |
+          echo ${{ github.event.issue }}
