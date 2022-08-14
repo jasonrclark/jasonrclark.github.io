@@ -22,7 +22,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Run a multi-line script
         run: |
-          scripts/reading-list.rb '${{ fromJson(steps.get_issue.outputs.data).body }}'
+          scripts/reading-list.rb "${{ fromJson(steps.get_issue.outputs.data).body }}"
 
           git config --global user.email "jason@jasonrclark.net"
           git config --global user.name "Jason R. Clark"
