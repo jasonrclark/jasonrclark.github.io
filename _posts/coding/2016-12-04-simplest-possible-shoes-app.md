@@ -3,7 +3,7 @@ layout:     post
 title:      Simplest Possible Shoes App (002)
 date:       2016-12-04 19:55:00
 summary:    In this installment, we'll see the smallest Shoes app you can start from.
-categories: shoes
+categories: coding
 video_url:  https://youtu.be/FESxSzsOscU
 embed_url:  https://www.youtube.com/embed/FESxSzsOscU
 ---
