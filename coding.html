@@ -2,17 +2,21 @@
 layout: default
 ---
 
-<h1>Kids Coding</h1>
+<h1 class="post-title">Kids Coding <i class="fa fa-child"></i></h1>
+<p>
 Several years back I did a lot of active work coding with my kids. Some
 writeups and results from that can be found in the <a href="../kidscode">
 Kids' Coding Corner</a>.
+</p>
 
-<h1>Blog</h1>
+<h1 class="post-title">Blog <i class="fa fa-desktop"></i></h1>
+<p>
 Infrequently updated but when I blog tech stuff, it shows up here.
+</p>
 
 {% assign posts = site.categories.coding | sort: "date" | reverse %}
 {% for post in posts %}
-  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span><br><br>
+  <h3 class="post-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
   <p>{{ post.summary }}</p>
 {% endfor %}
