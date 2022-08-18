@@ -6,8 +6,10 @@ lines = ARGV[0].lines.reject do |line|
   line.strip.empty?
 end
 
-lines = lines.each_slice(2).each do |(title, author)|
-  new_books += "  <li><i>#{title.strip}</i> - #{author.strip}</li>\n"
+lines = lines.each_slice(2).each do |(t, a)|
+  title = t.strip
+  author = author.strip.gsub(/^Book by /, "")
+  new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
 end
 
 original_content = File.read("./reading.html")
