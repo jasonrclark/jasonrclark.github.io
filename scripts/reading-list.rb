@@ -8,7 +8,7 @@ end
 
 lines = lines.each_slice(2).each do |(t, a)|
   title = t.strip
-  author = author.strip.gsub(/^Book by /, "")
+  author = a.strip.gsub(/^Book by /, "")
   new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
 end
 
