@@ -8,6 +8,11 @@ layout: default
   {% if page.update_date %}
     <span class="post-meta">Updated: {{ page.update_date | date: "%b %-d, %Y" }}</span><br>
   {% endif %}
+  {% if page.tags %}
+    {% for tag in page.tags  %}
+    <span class="post-meta post-tag">{{ tag }}</span>
+    {% endfor %}
+  {% endif %}
 </div>
 
 <article class="post-content">
