@@ -6,6 +6,8 @@ summary:    In this first installment, we'll show you how to get Shoes 4 install
 categories: coding
 video_url:  https://youtu.be/ax3wF3HLnzI
 embed_url:  https://www.youtube.com/embed/ax3wF3HLnzI
+tags:
+  - "shoes"
 ---
 
 [In this first installment]({{ page.video_url }}), we'll show you how to get Shoes 4 installed on your computer.

@@ -6,6 +6,8 @@ summary:    In this installment, we'll see the smallest Shoes app you can start 
 categories: coding
 video_url:  https://youtu.be/FESxSzsOscU
 embed_url:  https://www.youtube.com/embed/FESxSzsOscU
+tags:
+  - "shoes"
 ---
 
 [In this installment]({{ page.video_url }}), we'll see the smallest Shoes app you can start from.

@@ -1,5 +1,6 @@
 ---
-layout: default
+layout: post-list
+category: coding
 ---
 
 <h1 class="post-title">Kids Coding <i class="fa fa-child"></i></h1>
@@ -13,10 +14,3 @@ Kids' Coding Corner</a>.
 <p>
 Infrequently updated but when I blog tech stuff, it shows up here.
 </p>
-
-{% assign posts = site.categories.coding | sort: "date" | reverse %}
-{% for post in posts %}
-  <h3 class="post-list-title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
-  <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-  <p>{{ post.summary }}</p>
-{% endfor %}
