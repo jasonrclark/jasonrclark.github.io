@@ -1,7 +1,6 @@
 ---
 title: "Running Rubinius 2.0 with rbenv"
 categories: coding
-categories: coding
 date: "2013-10-08"
 tags:
   - "installation"
