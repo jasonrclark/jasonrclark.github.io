@@ -5,7 +5,7 @@ categories:
   - coding
 tags:
   - windows
-  - mcf
+  - mfc
 ---
 
 I ran into an interesting bug the other day. I noticed that in one of our grids, the edit control that pops up to allow you to modify values was not accepting single mouse-clicks to change where the cursor was. Uh-oh, I thought. I'd recently made a change related to capturing the mouse input, and this seemed like a side-effect I'd missed. So I fired up our bug-tracking software, entered a defect and got down to work.
