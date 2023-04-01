@@ -6,9 +6,10 @@ lines = ARGV[0].lines.reject do |line|
   line.strip.empty?
 end
 
-lines = lines.each_slice(2).each do |(t, a)|
-  title = t.strip
-  author = a.strip.gsub(/^Book by /, "")
+lines = lines.each_slice(2).each do |(title, author)|
+  title = title.strip
+  author = author.strip.gsub(/^Book by /, "")
+  author = author.strip.gsub(/^Novel by /, "")
   new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
 end
 
