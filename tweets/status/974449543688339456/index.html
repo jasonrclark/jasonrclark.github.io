@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <meta property="og:url" content="/jasonrclark/status/974449543688339456" />
+  <meta property="og:title" content="YAML Clark on Twitter (archived)" />
+  <meta property="og:description" content="Proposal: A smoosh function where the number of o’s tells how deep to flatten.<br><br>smoosh([1,[2,[3,[4]]]]) =&gt; [1,2,[3,[4]]]<br>smooosh([1,[2,[3,[4]]]]) =&gt; [1,2,3,[4]]<br>smoooosh([1,[2,[3,[4]]]]) =&gt; [1,2,3,4]" />
+  
+  
+
+  <title>Proposal: A smoosh function where the number of o’s tells how deep to flatten.<br><br>smoosh([1,[2,[3,[4]]]]) =&gt; [1,2,[3,[4]]]<br>smooosh([1,[2,[3,[4]]]]) =&gt; [1,2,3,[4]]<br>smoooosh([1,[2,[3,[4]]]]) =&gt; [1,2,3,4]</title>
+  <link rel="stylesheet" href="/css/pixyll.css">
+</head>
+<body>
+  <div class="wrapper">
+  	<div class="flex-wrap">
+      
+  	  <article class="tweet  " id="main">
+  	    <p class="full_text">
+  	      Proposal: A smoosh function where the number of o’s tells how deep to flatten.<br><br>smoosh([1,[2,[3,[4]]]]) =&gt; [1,2,[3,[4]]]<br>smooosh([1,[2,[3,[4]]]]) =&gt; [1,2,3,[4]]<br>smoooosh([1,[2,[3,[4]]]]) =&gt; [1,2,3,4]
+  	    </p>
+  	    <p class="created_at">
+  	      3/15/2018, 5:57:30 PM
+  	    </p>
+  	    <p class="favorite_count">Favs: 355</p>
+  	    <p class="retweet_count">Retweets: 79</p>
+  	    <a class="permalink" href="../974449543688339456">link</a>
+  	  </article>
+
+
+  	  <article class="tweet  child" >
+  	    <p class="full_text">
+  	      JavaScript may have brought up smoosh, but needlessly metaprogrammed, recursive Ruby is its truest home. 😈<br><br>class Array<br>  def smoosh<br>    self.flatten(1)<br>  end<br><br>  def method_missing(m, *_)<br>    if /smo(o+)sh/ =~ m<br>      self.smoosh.send(:"sm#{$1}sh")<br>    end<br>  end<br>end
+  	    </p>
+  	    <p class="created_at">
+  	      3/15/2018, 11:39:31 PM
+  	    </p>
+  	    <p class="favorite_count">Favs: 70</p>
+  	    <p class="retweet_count">Retweets: 11</p>
+  	    <a class="permalink" href="../974535613973016577">link</a>
+  	  </article>
+
+  	</div>
+  </div>
+</body>
+<script>
+document.getElementById('main').scrollIntoView();
+</script>
+</html>
