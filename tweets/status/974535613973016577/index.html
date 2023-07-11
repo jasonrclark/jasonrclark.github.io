@@ -1,44 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <meta property="og:url" content="/jasonrclark/status/974535613973016577" />
-  <meta property="og:title" content="YAML Clark on Twitter (archived)" />
-  <meta property="og:description" content="JavaScript may have brought up smoosh, but needlessly metaprogrammed, recursive Ruby is its truest home. 😈
-
-class Array
-  def smoosh
-    self.flatten(1)
-  end
-
-  def method_missing(m, *_)
-    if /smo(o+)sh/ =~ m
-      self.smoosh.send(:'sm#{$1}sh')
-    end
-  end
-end" />
-  
-  
-
-  <title>JavaScript may have brought up smoosh, but needlessly metaprogrammed, recursive Ruby is its truest home. 😈
-
-class Array
-  def smoosh
-    self.flatten(1)
-  end
-
-  def method_missing(m, *_)
-    if /smo(o+)sh/ =~ m
-      self.smoosh.send(:"sm#{$1}sh")
-    end
-  end
-end</title>
-  <link rel="stylesheet" href="/css/pixyll.css">
-</head>
-<body>
-  <div class="wrapper">
+---
+layout: default
+---
   	<div class="flex-wrap">
       
   	  <article class="tweet parent " >
@@ -68,8 +30,3 @@ end</title>
 
   	</div>
   </div>
-</body>
-<script>
-document.getElementById('main').scrollIntoView();
-</script>
-</html>
