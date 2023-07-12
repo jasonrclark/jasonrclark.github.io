@@ -2381,10 +2381,7 @@ article.tweet {
 <article class="tweet"><a href="/tweets/status/359843302163496960">RT @pamelafox: One day I'm going to learn to stop coding apps that deal with timezones. Or I'll take over the world and abolish them, for c…</a></article>
 <article class="tweet"><a href="/tweets/status/359361172790710274">I don't go in much for bumper stickers, but I'll make an exception. #nerdlife http://t.co/U0P4Hu6rhQ</a></article>
 <article class="tweet"><a href="/tweets/status/358390107016937473">"Dad do you like smooth jazz?" "Um no, not really." "So, do you like bumpy jazz then?"</a></article>
-<article class="tweet"><a href="/tweets/status/358381475256741889">RT @gnatok: 99 little bugs in the code
-99 little bugs in the
-Take one down, patch un
-117 little bugs in th</</article>
+<article class="tweet"><a href="/tweets/status/358381475256741889">RT @gnatok: 99 little bugs in the code<br>99 little bugs in the code<br>Take one down, patch it around<br>117 little bugs in the code</a></article>
 <article class="tweet"><a href="/tweets/status/357749837342588928">RT @michalbe: "This article is about the actor. For the #JavaScript library, see #jQuery." http://t.co/WAuMDTP5B3</a></article>
 <article class="tweet"><a href="/tweets/status/357722058718855170">RT @mattmight: Haskell is a DSL for writing compilers.</a></article>
 <article class="tweet"><a href="/tweets/status/357196741759602688">Have you heard about the @newrelic user conference #futurestack? Oct 24-25 in SF. http://t.co/AjVocNK9mZ</a></article>
