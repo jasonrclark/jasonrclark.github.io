@@ -42,5 +42,6 @@ window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){va
     <meta name="theme-color" content="#ffffff">
 
     <!-- Feeds -->
-    <link rel='alternate' type='application/atom+xml' title='Atom' href='http://jasonrclark.com/feed.xml'>
+  <link rel='alternate' type='application/atom+xml' title='Atom' href='{% if page.categories or page.category %}https://jasonrclark.com/{{ page.categories | default: page.category }}/feed.xml{% else %}https://jasonrclark.com/feed.xml{% endif %}'>
+
   </head>

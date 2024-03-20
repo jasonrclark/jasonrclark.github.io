@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      On Being a Relic
-date:       2022-03-19 19:45:00
+date:       2024-03-19 19:45:00
 summary:    After 11 years I recently left New Relic. Here are my thoughts on the occasion.
 categories: coding
 tags:
@@ -21,7 +21,7 @@ But if you know me, it'll come as no surprise that I couldn't go out without
 writing SOME page full of words! So instead of a laundry list of colleagues and
 in-jokes, here are the biggest positive lessons from my years at New Relic.
 
-# Cultivate curiosity every day
+## Cultivate curiosity every day
 
 In technology, constant learning is fundamental. Our systems are always
 changing and evolving. This is often overwhelming, especially in the big
@@ -49,7 +49,7 @@ instrument applications? All our agents are literally public on GitHub.
 Take some time to appreciate the breadth of systems at your fingertips in this
 organization and start digging.
 
-# Dig deep into our data
+## Dig deep into our data
 
 My second point may seem like an extension on the curiosity call-out, but it's
 important enough to call out separately – building familiarity with the data
@@ -86,7 +86,7 @@ metric and a log, and when should you use each of them? These basics are
 critical to know to get the best visibility without hitting unnecessary
 performance and cardinality snags.
 
-# Big things can change
+## Big things can change
 
 I'm lookin' at you rpm_site.
 
