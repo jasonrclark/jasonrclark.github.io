@@ -21,19 +21,24 @@ power I used to.
 
 The ride starts with a long climb up to over 1000 feet. While the grade never
 got particularly bad, it was grueling going up and up for such a long time. The
-downslope was a nice reward, but as I came to the reststop after the main
+downslope was a nice reward, but as I came to the rest stop after the main
 climbing near the 50 mile mark, my quads were more sore than I ever remember
 them being.
 
 I had a few moments of doubt there, wondering how much I was risking injury if I
-continued on for the full century. That reststop branched off for a metric
+continued on for the full century. That rest stop branched off for a metric
 century (100km) so I had an easy out. But I didn't want to take it. I ended up
 stretching quite a bit, resting, and my legs bounced back. With that and
-assurance that if I needed to bail at the 75 mile reststop my family could pick
+assurance that if I needed to bail at the 75 mile rest stop my family could pick
 me up, I went for it.
 
-As the map shows, I did manaage to finish. I think I may have been the last
+As the map shows, I did manage to finish. I think I may have been the last
 rider to get back -- they were already tearing everything down, the promised
 post-ride food a mere memory. Ah well. Now I know where I'm at and before trying
 another similar ride I'll definitely focus on more hill riding. Fast or not, a
-finished ride is a finished ride and I'm glad I did it.
+finished ride is a finished ride and I'm glad I did it. And not going to lie,
+this graph is very gratifying.
+
+<p align="center">
+<img width=500 src="/images/pioneer-century.png"></img>
+</p>
