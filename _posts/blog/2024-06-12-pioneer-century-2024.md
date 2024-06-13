@@ -40,5 +40,5 @@ finished ride is a finished ride and I'm glad I did it. And not going to lie,
 this graph is very gratifying.
 
 <p align="center">
-<img width=500 src="/images/pioneer-century.png"></img>
+<img width=500 src="/images/pioneer-century.png">
 </p>
