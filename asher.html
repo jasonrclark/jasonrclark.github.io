@@ -49,7 +49,7 @@
       <h1>Zelda Knight</h1>
       <p>by Asher and Jason Clark</p>
       <div><input id="nameTextbox" autofocus /></div>
-      <div><button id="startButton">Comenzar</button></div>
+      <div><button id="startButton">Start</button></div>
     </div>
 
     <div id="firstPage" hidden>
@@ -59,6 +59,8 @@
 
     <script>
       startButton.onclick = begin;
+      var speed = 0;
+      var height = 0;
 
       function begin() {
         startPage.hidden = true;
@@ -66,20 +68,51 @@
         me.hidden = false;
 
         window.onkeydown = (e) => {
-          if (e.code === "ArrowRight") {
-            moveLeft(10);
-          } else if (e.code === "ArrowLeft") {
-            moveRight(10);
-          } else if (e.code === "Space") {
-            moveUp(100);
-            setTimeout(() => { moveDown(25) }, 100)
-            setTimeout(() => { moveDown(25) }, 200)
-            setTimeout(() => { moveDown(25) }, 300)
-            setTimeout(() => { moveDown(25) }, 400)
-          } else {
-            console.log(e);
+          if (e.code === "ArrowRight" || e.code === "KeyD") {
+            speed = 10;
+          } else if (e.code === "ArrowLeft" || e.code === "KeyA") {
+            speed = -10;
+          } else if (e.code === "Space" || e.code === "KeyW") {
+            height += 100;
+          }
+        };
+
+        window.onkeyup = (e) => {
+          if (e.code === "ArrowRight" || e.code === "KeyD") {
+            speed = 0;
+          } else if (e.code === "ArrowLeft" || e.code === "KeyA") {
+            speed = 0;
           }
         }
+
+        tick(speed);
+
+        //window.onkeydown = (e) => {
+        //  console.log(e);
+        //  if (e.code === "ArrowRight" || e.code === "KeyD") {
+        //    setTimeout(() => { moveLeft(10) }, 1);
+        //  } else if (e.code === "ArrowLeft" || e.code === "KeyA") {
+        //    setTimeout(() => { moveRight(10) }, 1);
+        //  } else if (e.code === "Space" || e.code === "KeyW") {
+        //    setTimeout(() => { moveUp(100) },  1)
+        //    setTimeout(() => { moveDown(25) }, 100)
+        //    setTimeout(() => { moveDown(25) }, 200)
+        //    setTimeout(() => { moveDown(25) }, 300)
+        //    setTimeout(() => { moveDown(25) }, 400)
+        //  } else {
+        //    console.log(e);
+        //  }
+        //}
+      }
+
+      function tick() {
+        setTimeout(() => {
+          moveLeft(speed);
+          tick(speed);
+
+          moveUp(height);
+          height = 0;
+        }, 15);
       }
 
       function moveLeft(amount) {
