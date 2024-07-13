@@ -4,7 +4,7 @@ email:       jason@jasonrclark.com
 author:      Jason Clark
 description: "Just another website"
 baseurl:     ""
-url:         "http://jasonrclark.com"
+url:         "https://jasonrclark.com"
 
 # Google analytics
 google_analytics: UA-88451017-1
