@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <input id="user">
+    <button onClick="onClick()">
+      Go
+    </button>
+
+    <script>
+      function onClick() {
+        var user = document.getElementById("user").value
+        window.location.href = `https://www.threads.net/@${user}`
+      }
+    </script>
+  </body>
+</html>
