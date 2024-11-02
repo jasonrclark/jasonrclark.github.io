@@ -7,16 +7,27 @@
     </style>
   </head>
   <body>
-    <input id="user" autofocus>
+    <input id="user" autofocus autocapitalize="none" onFocus="onFocus()">
     <br><br>
-    <button onClick="onClick()">
+    <button onClick="go()">
       Go
     </button>
 
+    <button onClick="clearInput()">
+      Clear
+    </button>
+
     <script>
-      function onClick() {
-        var user = document.getElementById("user").value
-        window.open(`https://www.threads.net/@${user}`, '_blank')
+      function go() {
+        window.open(`https://www.threads.net/@${user.value}`, '_blank')
+      }
+
+      function clearInput() {
+        user.value = ""
+      }
+
+      function onFocus() {
+        user.setSelectionRange(0, user.value.length)
       }
 
       user.focus()
