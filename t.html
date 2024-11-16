@@ -7,7 +7,9 @@
     </style>
   </head>
   <body>
-    <input id="user" autofocus autocapitalize="none" onFocus="onFocus()">
+    <input id="user" autofocus autocapitalize="none"
+      onFocus="onFocus()"
+      onKeyDown="onKeyDown(event)">
     <br><br>
     <button onClick="go()">
       Go
@@ -16,6 +18,9 @@
     <button onClick="clearInput()">
       Clear
     </button>
+
+    <pre id="_code">
+    </pre>
 
     <script>
       function go() {
@@ -30,7 +35,16 @@
         user.setSelectionRange(0, user.value.length)
       }
 
+      function onKeyDown(e) {
+        if (e.code === "Enter") {
+          go()
+        }
+      }
+
       user.focus()
+      if (document.getElementById("code")) {
+        code.innerText = document.documentElement.innerHTML
+      }
     </script>
   </body>
 </html>
