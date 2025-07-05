@@ -4,9 +4,6 @@ date: 2020-01-23
 categories: travel
 tags:
 - scotland
-- eats
-- explorations
-- holiday
 ---
 
 August broiled us day by day in Barcelona. My birthday was approaching at the
