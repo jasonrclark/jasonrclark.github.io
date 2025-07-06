@@ -37,9 +37,8 @@ Our first activity was candy-making lessons at [Spun
 Candy](https://www.spun-candy.com/). We managed to keep it secret from the kids
 until we arrived. Needless to say that shook off any travel weariness and
 cranks. The folks from the shop mixed the hot sugar, and then we shaped our own
-lollipops on the warm stone tables.
-
-https://www.youtube.com/watch?v=CW0a7SmqD5M&list=PLB6O_88YJvCt98f9IhfCswZaPtuBsa5EF
+lollipops on the warm stone tables. [Check it out on
+video!](https://www.youtube.com/watch?v=CW0a7SmqD5M&list=PLB6O_88YJvCt98f9IhfCswZaPtuBsa5EF)
 
 The staff handled the dangerous parts of candymaking, leaving us to roll
 lollies!
