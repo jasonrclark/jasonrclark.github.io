@@ -9,7 +9,7 @@ end
 
 lines = lines.each_slice(2).each do |(first_line, second_line)|
   if first_line.downcase.start_with?("+recommend")
-    recommendations << second_line
+    recommendations << second_line.strip
   else
     title = first_line.strip
     author = second_line.strip.gsub(/^Book by /, "")
@@ -17,6 +17,7 @@ lines = lines.each_slice(2).each do |(first_line, second_line)|
     new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
   end
 end
+binding.irb
 
 original_content = File.read("./reading.html")
 
