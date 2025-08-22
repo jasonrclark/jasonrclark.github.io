@@ -180,29 +180,83 @@ Belgium while we were there, so no one got too rowdy.)
 
 ## The Food
 
-* Cooking class, big group, part US, part Swiss (Romansh)
-* Mercado 31 de Janeiro market
+As ever, a big part of our time in Portugal revolved around food. We scheduled
+to take a cooking class. It started with a trip to the [Mercado 31 de Janeiro
+market](https://informacoeseservicos.lisboa.pt/contactos/diretorio-da-cidade/mercado-31-de-janeiro)
+where our instructor showed us a variety of local vegetables and meats, and
+gathered up what we'd need for the class. It was a relatively big group cooking
+together, with some other folks from the US and two people from Switzerland (who
+interestingly spoke the rare Romansh language and filled us in on all the
+details about it.)
+
+The dishes bore a lot of resemblance to things we'd had and made in Spain, but
+with some twists here and there. The kids enjoyed blending a gazpacho-like soup
+and coiling up a fruit rolled cake.
 
 {% include image.html caption="lol" url="/images/travel/2024-Portugal/cooking-class.jpg" %}
 
-* Pastel de Nata
+One of the treats that folks talk about in Portugal endlessly is pastel de nata.
+These are tasty little egg custards in a flaky shell. Easily eaten in a couple
+of bites, they're available all over the place. We found a pretty good location
+for them near the Castelo Sao Jorge. Sadly, we had also just learned of Asher's
+egg allergy not long before the trip, which took some of the shine off this
+delectable treat.
 
 {% include image.html caption="lol" url="/images/travel/2024-Portugal/pastel-de-nata.jpg" %}
 
-* Fado evening show, steak, pork cheek and duck, vinho verde
+One evening we went to a fado restaurant, which is a classical combination of
+soulful folks music and good cooking. The spot we chose was probably among the
+classier places we went on the trip, and the music was engaging even though we
+couldn't follow the words which were undoubtedly fraught with meaning. The menu
+had some lovely steak, pork cheeks, and duck. I also sampled the vinho verde, a
+local vine variety made with newer grapes giving it a bright flavor.
 
-* Ramiro
+Probably the highlight of our eating in Portugal, though, was [Cervejaria
+Ramiro](https://www.cervejariaramiro.com/). Like many folks, we were aware of
+this seafood restaurant through Anthony Bourdain who sang its praises for the
+quality and freshness. He wasn't wrong. Although it had been many years since
+Mr. Bourdain visited -- and the small spot depicted on the show had now burrowed
+its way through room after room, level after level of the building it was in --
+the seafood absolutely delivered. Much of it was offered by weight and there
+were so many varieties of shellfish it was hard to know precisely what was being
+picked, but what a lovely problem to have.
 
 {% include image.html caption="lol" url="/images/travel/2024-Portugal/tasty-seafood.jpg" %}
+
+It wasn't uncommon for restaurants to have paper table covering that it was okay
+to write and draw on, which led to a family habit of doing hangman along the
+way. That led to a highlight of my life as a dad to date when I managed to
+Rickroll Cora in hangman. She then proceeded to respond with games drawn from
+Monty Python. I may have my faults as a parent, but I've done something right.
+
 {% include image.html caption="lol" url="/images/travel/2024-Portugal/never-gonna-give-you-up.jpg" %}
 
 ## Farewell
 
-* Nowhere to leave bags
-* No walking at the airport so just hours and hours to wait, with delays
+That brought us to our final days in Lisbon and Europe for the summer. We
+encountered then one of the downsides of apartments versus hotels, because our
+flight wasn't until the afternoon but we had to leave at eleven. We asked around
+at a couple of the hotels in the block, but they were rather uninterested in
+holding bags when we hadn't taken a room out. Ah well.
 
 {% include image.html caption="lol" url="/images/travel/2024-Portugal/angry-fountain.jpg" %}
 
-* Greasy chippy in Dublin before early flight back out
+This led us to the airport many long hours early. We looked at the map and it
+seemed that a park wasn't too far away, so the plan was for the ladies to hang
+with the bagged while I took Asher to get his wiggles out before the long
+flights began.
+
+Sadly, like many US airports I'm sure, Lisbon had literally no way to walk to or
+from the airport. We followed every path we could, but there was no way out
+without walking on huge multi-lane roads that plainly weren't meant for
+pedestrians. Defeated, we went back and rejoined the throng of people waiting
+for their flights.
+
+After that, the flight out was delayed back to Dublin where our primary
+round-trip tickets were returning home from. We got in super late, and the kids
+were on the verge of breaking down. We assumed that hunger was part of the
+reason, but only a chippy was open across the way. We bought a pile of deeply
+fried, not that appetizing food which went almost untouched. At least we got a
+bit of sleep before hopping the flights back home the next morning.
 
 {% include image.html caption="lol" url="/images/travel/2024-Portugal/obligatory-pdx.jpg" %}
