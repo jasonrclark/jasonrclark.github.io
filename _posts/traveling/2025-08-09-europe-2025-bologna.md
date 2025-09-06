@@ -63,6 +63,7 @@ tags:
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptunes-gals.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-parm-puffin.jpg" %}
 
+- Delayed Amber sick on plane
 - Late arrival. Hot. City center shut to traffic so walking last bit. Puzzle box getting inside (because tired)
 
 Sunday, August 10th, 2025 (Day 11)
