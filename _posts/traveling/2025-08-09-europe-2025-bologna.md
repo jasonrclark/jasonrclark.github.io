@@ -320,37 +320,122 @@ plaza by our apartment, sweetness was never far away.
 
 ## About Town
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-arches.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-motos.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-shaded.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway.jpg" %}
+Bologna is a beautiful city. I honestly wasn't too sure what we were going to do
+there, but it proved to be a perfect introduction to Italy for us. One of the
+most recognizable sights in the city were a pair of towers -- one of them
+significantly leaning, take that Pisa! -- and it was only a few blocks down the
+street from the apartment Amber found for us.
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-towers.jpg" %}
+{% include image.html caption="Garisenda and Asinelli -- Bologna's two towers" url="/images/travel/2025-Bologna/bologna-towers.jpg" %}
 
-- Oddball grocery store with many rooms
+The city is very walkable near the center, and its architecture was a joy to
+explore. In Athens there were many landmarks which made an impression but the
+overall sense of the city apart from those spots was "generic European" to me.
+In Bologna on the other hand, there was an immediate sense that you were in
+Italy, similar to how you could land me in any corner of Barcelona and I'd know
+where I was.
 
-- Frequent chilling and napping at flat
-- Decathlon downtown a bust
+A key component of that feeling of place was how the walkways and paths were
+built, the arching covered paths that you took from place to place.
 
-- Shopping around in afternoon. chitarra and rolling pin
+{% include image.html caption="Arched walkways" url="/images/travel/2025-Bologna/bologna-walkway-arches.jpg" %}
+{% include image.html caption="More arches" url="/images/travel/2025-Bologna/bologna-walkway.jpg" %}
 
-- Basilica and screaming statues. More shopping nociollo
+So much of the city was clearly built before the advent of cars. The narrow
+ways, the cobbled stones, the sense of winding your way through a maze made even
+the walk with Google maps to a restaurant something of an adventure.
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-lion-fence.jpg" %}
+{% include image.html caption="Delightful little sidestreets" url="/images/travel/2025-Bologna/bologna-walkway-motos.jpg" %}
+{% include image.html caption="Shade down the way" url="/images/travel/2025-Bologna/bologna-walkway-shaded.jpg" %}
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-basilica.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-basilica-interior.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-choir-book.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-fancy-ceilings.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-fancy.jpg" %}
+A fun little side note, at least in downtown Bologna, pertains to the various
+grocery stores that we visited. Where normally stores of that sort are some sort
+of large open space, everywhere we went instead we found the places where it was
+obvious that the store had been carved out by connecting multiple different
+distinct spaces, what had previously been multiple shops or apartments or
+something, now all strung together in a winding maze. It made hunting for
+supplies extra adventurous, as you never knew what the next room would hold.
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptune.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptune-sculptors-revenge.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptunes-gals.jpg" %}
+{% include image.html caption="I'm not lion to you" url="/images/travel/2025-Bologna/bologna-lion-fence.jpg" %}
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-scream-1.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-scream-2.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-scream-3.jpg" %}
+Our days were often shaped around the excursions and classes we were taking, but
+there was a heatwave on which also sapped the energy out of us much of the time.
+Most days followed a pattern of waking, doing an activity, then crashing at the
+apartment in the hottest part of the afternoon, maybe even napping, before
+emerging to dinner in the evening. Rough life.
+
+We did some shopping in the city. An outpost of the sporting goods store
+Decathlon, which we frequented in Barcelona, was around and Asher dearly missed
+some of the swim trunks we'd gotten him there. Unfortunately it turned out to be
+a tiny one in Bologna, but we had better success finding one of the outskirts
+when we left town.
+
+Amber's other obsession was to get some supplies for making pasta at home. We
+went to several locations looking for the "right" type of rolling pin like we'd
+seen in our classes. It took us eventually to a kind of cluttered, bazaar-like
+shop with narrow walkways down the aisles that two people could barely pass by,
+but we found the roller she was after. A chitarra proved impossible to find
+oddly enough, so Amazon it was.
+
+Last but not least, at the balsamic place the meal had ended with an aperitif of
+homemade liquor aged on walnuts called nocino. I enjoyed it enough that we
+started asking after it at a few wine spots around, and while what we found
+wasn't nearly as good but was worth taking home.
+
+We saw two other major sights in Bologna. One was the Basilica di San Petronio,
+a church bordering one of the plazas near our apartment with only part of the
+front face finished. Legend has it that the Pope of the time wasn't too happy
+with it approaching the size and majesty of some other cathedrals, so he put a
+halt to the project and it remains unfinished to this day.
+
+{% include image.html caption="Outside the Basilica" url="/images/travel/2025-Bologna/bologna-basilica.jpg" %}
+{% include image.html caption="Inside the Basilica" url="/images/travel/2025-Bologna/bologna-basilica-interior.jpg" %}
+
+In a room off the main space of the cathedral were a series of really cool
+looking old choir books. These volumes were huge to be visible to folks from a
+distance while reading them to sing during services. Even so, the margins were
+decorated lavishly.
+
+{% include image.html caption="Choir book at the Basilica" url="/images/travel/2025-Bologna/bologna-choir-book.jpg" %}
+
+It was a constant amazement too, throughout Bologna, all the little touches
+where things were decorated and gilded, painted and finished in style. The level
+of detail was so far past what I'm used to in the States, it's really hard to
+imagine the world in which the work was done.
+
+{% include image.html caption="Such fancy decorations" url="/images/travel/2025-Bologna/bologna-fancy.jpg" %}
+{% include image.html caption="Even the ceilings are fancy" url="/images/travel/2025-Bologna/bologna-fancy-ceilings.jpg" %}
+
+The other big destination in Bologna was a set of sculptures of various figures
+from the Gospels, grieving over the dead Christ. Apparently these terracotta
+figures may have been painted and arranged different back in the day, but the
+exquisite way in which their emotions were captured was moving to see.
+
+{% include image.html caption="Some screaming" url="/images/travel/2025-Bologna/bologna-scream-1.jpg" %}
+{% include image.html caption="More screaming" url="/images/travel/2025-Bologna/bologna-scream-2.jpg" %}
+{% include image.html caption="SO MUCH SCREAMING" url="/images/travel/2025-Bologna/bologna-scream-3.jpg" %}
+
+Our apartment was right across from the Piazza del Nettuno. As the name
+suggests, this plaza featured a massive statue of the god Neptune.
+
+{% include image.html caption="Neptune in the Plaza" url="/images/travel/2025-Bologna/bologna-neptune.jpg" %}
+
+Our cooking instructor Maruizio told us a story about this statue, though. The
+legend is that the artist originally wanted Neptune's, well, manliness, to be
+rather more in keeping with his stature as a god. His patrons, though, refused
+and so Neptune was crafted in more modest proportions.
+
+The artist, however, got his revenge. If you stand at just the right angle
+behind the statue, Neptune's outstretched hand... well, look and see for
+yourself.
+
+{% include image.html caption="What the artist intended" url="/images/travel/2025-Bologna/bologna-neptune-sculptors-revenge.jpg" %}
+
+In the States at least, we often view the past as being some more tame and bland
+time. I believe the facts of the matter are quite different than that
+impression.
+
+{% include image.html caption="Ahem" url="/images/travel/2025-Bologna/bologna-neptunes-gals.jpg" %}
 
 <br />
 
