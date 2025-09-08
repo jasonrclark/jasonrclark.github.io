@@ -264,45 +264,93 @@ that goes into prosciutto after the tour.
 
 ## Eats
 
-- Refused at first restaurant — kinda rude? Lucked out without reservation. Zucchini blossoms don’t taste like much?
+Needless to say, eating in Bologna was also a highlight, even when we weren't
+in a class making it ourselves.
+
+The first night we rocked out with reservations set up to just see what we could
+do at a couple spots that were recommended near our apartment. The first place
+we tried it was a really weird interaction -- they said they didn't have any,
+but then were having conversations with other folks who plainly didn't have a
+reservation right beside us.
+
+We wandered off and found another spot that looked busy and had a small cluster
+of people lined up that when we asked apparently were those without
+reservations. Since it looked short enough we joined the queue. The food was
+okay, though the pasta a little more al dente than I expected. We tried a fried
+zucchini blossom but it mostly tasted of cheese and the batter. The waiter
+switched between vigorous Italian and a shockingly British accent as people
+constantly maneuvered in and out.
 
 {% include youtube.html shortcode="cLiQQsAP0EA" caption="Rolling pasta" %}
 
-- Simoni Salumeria dinner
-- Vicolo Colombiana for dinner so great
-- Trattoria da Me. Awesome meal. Boisterous waiter. Zucchini flower, rabbit, lasagna, tomatoes. Not super traditional at all but so good.
+We learned our lesson there and did better research and reservations for most of
+the later nights. The exception was [Simoni
+Salumeria](https://salumeriasimoni.it/), which as more of a deli sort of place
+we took a chance on to great success. Lovely charcuterie and cheese options with
+perfect bread beside. I learned there to appreciate the mortadella, which I'd
+always viewed a little suspiciously as too much like baloney to be that good. I
+was wrong. Completely wrong. It's luscious and fully deserves its standing in
+the meat counter.
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-gelato-2.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-gelato-1.jpg" %}
+At a recommendation from one of our guides/teachers, we got a reservation at
+[Vicolo Colombiana](https://www.vicolocolombina.it/). Tucked down a tiny street
+after which its named, we got an early slot easily which worked great for us.
+Here we had tortellini in brodo di cappone, perfect little pastas in a savory
+broth, and guancia di manzo, beef cheeks so wonderfully tender.
+
+Another favorite was [Trattoria da Me](https://www.trattoriadame.it/). I was
+expecting this for some reason to be a super traditional spot, but it turned out
+to be a very modern take on the cuisine. The waiter was boisterous and friendly,
+lighting up the room whenever he came in and full of suggestions. Here we tried
+again with the zucchini flowers and unlike our first night _now_ I get the
+allure, the subtle flavors and textures of it. The waiter was extremely excited
+for us that they had the lasagna, which was normally only on Sundays, so we
+obviously had to go for that. We also did the rabbit and a side of fresh
+tomatoes that sang of summer. Truly an awesome meal.
+
+And of course we can't talk about food in Italy without Amber's favorite,
+gelato. One of our spots in Portland is a gelato place run by an immigrant from
+Italy, so it was a thrill to go back to the source. I can't give you the
+blow-by-blow because of how many times we would stop in for a little frozen
+treat. Whether on the way to an activity, or just popping out at 10pm across the
+plaza by our apartment, sweetness was never far away.
+
+{% include image.html caption="Gelato" url="/images/travel/2025-Bologna/bologna-gelato-1.jpg" %}
+{% include image.html caption="More gelato" url="/images/travel/2025-Bologna/bologna-gelato-2.jpg" %}
 
 ## About Town
+
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-arches.jpg" %}
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-motos.jpg" %}
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-shaded.jpg" %}
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway.jpg" %}
+
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-towers.jpg" %}
 
 - Oddball grocery store with many rooms
 
 - Frequent chilling and napping at flat
 - Decathlon downtown a bust
 
-- Shopping around in afternoon. Rolling pin
+- Shopping around in afternoon. chitarra and rolling pin
 
 - Basilica and screaming statues. More shopping nociollo
 
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-basilica-interior.jpg" %}
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-lion-fence.jpg" %}
+
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-basilica.jpg" %}
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-basilica-interior.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-choir-book.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-fancy-ceilings.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-fancy.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-lion-fence.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptune-sculptors-revenge.jpg" %}
+
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptune.jpg" %}
+{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptune-sculptors-revenge.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-neptunes-gals.jpg" %}
+
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-scream-1.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-scream-2.jpg" %}
 {% include image.html caption="" url="/images/travel/2025-Bologna/bologna-scream-3.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-towers.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-arches.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-motos.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway-shaded.jpg" %}
-{% include image.html caption="" url="/images/travel/2025-Bologna/bologna-walkway.jpg" %}
 
 <br />
 
