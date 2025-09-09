@@ -230,9 +230,13 @@ traded or gifted between families. Only late in the last century did they begin
 to expand production enough to be able to see some of it at a rather high price
 point.
 
-The balsamic is aged up in the highest floor of the house, in a room packed with
-barrels. Each line of barrels is where the vinegar progresses through it's aging
-process. Once a year they move liquid from the bigger barrels to the smaller.
+The process starts from grapes grown either on the estate or nearby. The juice
+is squeezed and cooked before being ready to go into the barrels for aging. The
+balsamic is aged in the highest floor of the house, the room packed with
+barrels. It's important for the development that it be hot there in summer --
+and it was! -- and cold in winter. The balsamic needs to breathe. Each line of
+barrels is where the vinegar progresses through it's aging process. Once a year
+they move liquid from the bigger barrels to the smaller.
 
 {% include image.html caption="Balsamic lines" url="/images/travel/2025-Bologna/bologna-balsalmic-lineup.jpg" %}
 
