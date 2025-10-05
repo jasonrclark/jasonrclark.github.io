@@ -17,7 +17,6 @@ lines = lines.each_slice(2).each do |(first_line, second_line)|
     new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
   end
 end
-binding.irb
 
 original_content = File.read("./reading.html")
 
