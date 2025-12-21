@@ -20,9 +20,17 @@ if ARGV[0].start_with?("+review")
 
   File.write(file_path, post_content, mode: 'a+')
 
+  # _posts/blog/2025-12-21-books-wild-seed.md
+  url = file_path
+    .sub("_posts", "")
+    .sub("-", "/")
+    .sub("-", "/")
+    .sub("-", "/")
+    .sub(".md", "/")
+
   new_content = original_content.sub(
     "<i>#{title}",
-    "<i><a href='#{file_path}'>#{title}</a>")
+    "<i><a href='#{url}'>#{title}</a>")
 else
   lines = ARGV[0].lines.reject do |line|
     line.strip.empty?
