@@ -1,44 +1,64 @@
 #! /usr/bin/env ruby
 
-new_books = ""
-recommendations = []
-
-lines = ARGV[0].lines.reject do |line|
-  line.strip.empty?
-end
-
-lines = lines.each_slice(2).each do |(first_line, second_line)|
-  if first_line.downcase.start_with?("+recommend")
-    recommendations << second_line.strip
-  else
-    title = first_line.strip
-    author = second_line.strip.gsub(/^Book by /, "")
-    author = author.strip.gsub(/^Novel by /, "")
-    new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
-  end
-end
+require_relative './post'
 
 original_content = File.read("./reading.html")
 
-new_content = original_content.sub(/<ol.*>/) do |header|
-  if new_books.empty?
-    header
-  else
-    "#{header}\n#{new_books.chomp}"
+new_books = ""
+new_content = original_content
+recommendations = []
+
+if ARGV[0].start_with?("+review")
+  lines = ARGV[0].lines
+  find_review = lines[1].chomp!
+  title_match = original_content.match(/^.*<i>(#{find_review}.*)<\/i>.*$/)
+  exit 1 unless title_match
+
+  title = title_match[1]
+  file_path = create_post("Books: #{title}", "blog", ["books", "review"])
+  post_content = lines[2..-1].join("")
+
+  File.write(file_path, post_content, mode: 'a+')
+
+  new_content = original_content.sub(
+    "<i>#{title}",
+    "<i><a href='#{file_path}'>#{title}</a>")
+else
+  lines = ARGV[0].lines.reject do |line|
+    line.strip.empty?
   end
-end
 
-recommended_lines = recommendations.map do |recommend|
-  new_content.match(/^.*#{recommend}.*$/)
-end
+  lines = lines.each_slice(2).each do |(first_line, second_line)|
+    if first_line.downcase.start_with?("+recommend")
+      recommendations << second_line.strip
+    else
+      title = first_line.strip
+      author = second_line.strip.gsub(/^Book by /, "")
+      author = author.strip.gsub(/^Novel by /, "")
+      new_books += "  <li><i>#{title}</i> - #{author}</li>\n"
+    end
+  end
 
-recommended_lines.each do |line|
-  original = line.to_s
+  new_content = original_content.sub(/<ol.*>/) do |header|
+    if new_books.empty?
+      header
+    else
+      "#{header}\n#{new_books.chomp}"
+    end
+  end
 
-  replacement = original.sub("<li>", "<li><b>")
-  replacement = replacement.sub("</li>", "</b></li>")
+  recommended_lines = recommendations.map do |recommend|
+    new_content.match(/^.*#{recommend}.*$/)
+  end
 
-  new_content = new_content.sub(original, replacement)
+  recommended_lines.each do |line|
+    original = line.to_s
+
+    replacement = original.sub("<li>", "<li><b>")
+    replacement = replacement.sub("</li>", "</b></li>")
+
+    new_content = new_content.sub(original, replacement)
+  end
 end
 
 File.open("./reading.html", "w") do |file|

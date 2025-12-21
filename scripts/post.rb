@@ -1,7 +1,13 @@
+require "date"
+
 def create_post(title, category, tags)
   # Generate the file name and path
   date = Date.today
-  file_name = "#{date}-#{title.downcase.gsub(/\s+/, "-")}.md"
+  clean_title = title.downcase
+    .gsub(/\s+/, "-")
+    .gsub(/[:"']/, "")
+
+  file_name = "#{date}-#{clean_title}.md"
   file_path = "_posts/#{category}/#{file_name}"
 
   # Create the file with YAML front matter

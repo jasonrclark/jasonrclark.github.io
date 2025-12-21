@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
 
-require "date"
-require "fileutils"
-
 require_relative './post'
 
 # Get the title and category arguments
