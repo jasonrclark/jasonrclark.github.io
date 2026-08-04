@@ -1,31 +1,184 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open a Threads profile</title>
     <style>
-      input {
-        width: 200px;
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
       }
 
       body {
-        width: fit-content;
-        block-size: fit-content;
+        min-height: 100vh;
+        min-height: 100dvh;
+        margin: 0;
+        padding: 24px;
+        display: grid;
+        place-items: center;
+        background: #f4f4f5;
+        color: #18181b;
+      }
+
+      main {
+        width: min(100%, 420px);
+        padding: 32px;
+        border: 1px solid #e4e4e7;
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 0 16px 40px rgb(0 0 0 / 10%);
+        text-align: center;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(1.5rem, 6vw, 2rem);
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 0 0 24px;
+        color: #52525b;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        text-align: left;
+        font-weight: 600;
+      }
+
+      input {
+        width: 100%;
+        min-height: 48px;
+        padding: 10px 14px;
+        border: 1px solid #a1a1aa;
+        border-radius: 10px;
+        font: inherit;
+        font-size: 16px;
+      }
+
+      input:focus {
+        border-color: #18181b;
+        outline: 3px solid rgb(24 24 27 / 15%);
+      }
+
+      .actions {
+        display: flex;
+        gap: 12px;
+        margin-top: 16px;
+      }
+
+      button {
+        flex: 1;
+        min-height: 48px;
+        padding: 10px 16px;
+        border: 1px solid #18181b;
+        border-radius: 10px;
+        background: #18181b;
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        font-weight: 600;
+      }
+
+      button.secondary {
+        background: transparent;
+        color: #18181b;
+      }
+
+      button:hover {
+        opacity: 0.85;
+      }
+
+      pre {
+        max-width: 100%;
+        overflow-x: auto;
+        text-align: left;
+      }
+
+      @media (max-width: 420px) {
+        body {
+          padding: 16px;
+        }
+
+        main {
+          padding: 24px 20px;
+          border-radius: 16px;
+        }
+
+        .actions {
+          flex-direction: column;
+        }
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background: #09090b;
+          color: #fafafa;
+        }
+
+        main {
+          border-color: #3f3f46;
+          background: #18181b;
+          box-shadow: 0 16px 40px rgb(0 0 0 / 35%);
+        }
+
+        p {
+          color: #a1a1aa;
+        }
+
+        input {
+          border-color: #71717a;
+          background: #27272a;
+          color: #fafafa;
+        }
+
+        input:focus {
+          border-color: #fafafa;
+          outline-color: rgb(250 250 250 / 20%);
+        }
+
+        button {
+          border-color: #fafafa;
+          background: #fafafa;
+          color: #18181b;
+        }
+
+        button.secondary {
+          color: #fafafa;
+        }
       }
     </style>
   </head>
   <body>
-    <input id="user" autofocus autocapitalize="none"
-      onFocus="onFocus()"
-      onKeyDown="onKeyDown(event)">
-    <br><br>
-    <button onClick="go()">
-      Go
-    </button>
+    <main>
+      <h1>Open a Threads profile</h1>
+      <p>Enter a username to view it on Threads.</p>
 
-    <button onClick="clearInput()">
-      Clear
-    </button>
+      <label for="user">Username</label>
+      <input id="user" autofocus autocapitalize="none" autocomplete="off"
+        inputmode="text" placeholder="username"
+        onFocus="onFocus()"
+        onKeyDown="onKeyDown(event)">
 
-    <pre id="_code">
-    </pre>
+      <div class="actions">
+        <button onClick="go()">
+          Open profile
+        </button>
+
+        <button class="secondary" onClick="clearInput()">
+          Clear
+        </button>
+      </div>
+
+      <pre id="_code"></pre>
+    </main>
 
     <script>
       function go() {
