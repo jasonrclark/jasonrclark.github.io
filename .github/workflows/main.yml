@@ -9,12 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.issue.user.login == 'jasonrclark'
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '4'
-      - uses: octokit/request-action@v2.x
+      - uses: octokit/request-action@v3.x
         id: get_issue
         with:
           route: GET /repos/jasonrclark/jasonrclark.github.io/issues/${{ github.event.issue.number }}
