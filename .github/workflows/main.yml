@@ -14,15 +14,13 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '4'
-      - uses: octokit/request-action@v3.x
-        id: get_issue
-        with:
-          route: GET /repos/jasonrclark/jasonrclark.github.io/issues/${{ github.event.issue.number }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Run a multi-line script
+
+      - name: Issue to reading list
         run: |
-          scripts/reading-list.rb "${{ fromJson(steps.get_issue.outputs.data).body }}"
+          mkdir -p /tmp
+          gh issue view ${{ github.event.issue.number }} --json body | \
+            jq -r .body | \
+            scripts/reading-list.rb
 
           git config --global user.email "jason@jasonrclark.net"
           git config --global user.name "Jason R. Clark"
@@ -33,3 +31,5 @@ jobs:
 
           Closes #${{ github.event.issue.number }}"
           git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

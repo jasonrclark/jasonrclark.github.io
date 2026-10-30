@@ -8,8 +8,10 @@ new_books = ""
 new_content = original_content
 recommendations = []
 
-if ARGV[0].start_with?("+review")
-  lines = ARGV[0].lines
+incoming = STDIN.read
+
+if incoming.start_with?("+review")
+  lines = incoming.lines
   find_review = lines[1].chomp!
   title_match = original_content.match(/^.*<i>(#{find_review}.*)<\/i>.*$/)
   exit 1 unless title_match
@@ -32,7 +34,7 @@ if ARGV[0].start_with?("+review")
     "<i>#{title}",
     "<i><a href='#{url}'>#{title}</a>")
 else
-  lines = ARGV[0].lines.reject do |line|
+  lines = incoming.lines.reject do |line|
     line.strip.empty?
   end
 
