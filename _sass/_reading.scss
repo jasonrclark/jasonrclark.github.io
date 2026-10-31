@@ -1,0 +1,51 @@
+.reading-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.reading-filter {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  max-width: 100%;
+  font-size: 1rem;
+
+  input {
+    box-sizing: border-box;
+    height: 2.5rem;
+    border: 1px solid #bbb;
+    background-color: #fff;
+    color: #555;
+    min-width: 0;
+    width: 18rem;
+    padding: .5rem .75rem;
+    border-radius: .5rem;
+
+    &:focus-visible {
+      outline: 2px solid #777;
+      outline-offset: 2px;
+    }
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .reading-toolbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reading-filter {
+    margin-left: 0;
+  }
+}

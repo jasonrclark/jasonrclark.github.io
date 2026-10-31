@@ -5,8 +5,14 @@ layout: default
 <h1 class="post-title">Reading <i class="fa fa-book"></i></h1>
 
 <br/>
-<p><b>Recommendations in bold</b></p>
+<div class="reading-toolbar">
+  <p>Recommendations in <strong>bold</strong></p>
+  <div class="reading-filter" role="search" hidden>
+    <input id="reading-search" type="search" aria-label="Filter reading list" placeholder="Filter reading list">
+  </div>
+</div>
 
+<div id="reading-list">
 <h2 class="h3">2026</h2>
 <ol reversed>
   <li><i>Dracula</i> - Bram Stoker</li>
@@ -1342,3 +1348,33 @@ layout: default
   <li><b><i>The Fellowship of the Ring</i> - J.R.R. Tolkien</b></li>
   <li><b><i>The Hobbit</i> - J.R.R. Tolkien</b></li>
 </ul>
+</div>
+
+<script>
+  const readingSearch = document.getElementById('reading-search');
+  const readingYears = Array.from(document.querySelectorAll('#reading-list h2')).map(heading => {
+    const list = heading.nextElementSibling;
+    const books = Array.from(list.children).map(item => ({
+      item,
+      text: item.textContent.toLowerCase()
+    }));
+    return { heading, list, books };
+  });
+
+  function filterReadingList() {
+    const query = readingSearch.value.toLowerCase();
+    readingYears.forEach(({ heading, list, books }) => {
+      let hasMatches = false;
+      books.forEach(({ item, text }) => {
+        const matches = text.includes(query);
+        item.hidden = !matches;
+        hasMatches = hasMatches || matches;
+      });
+      heading.hidden = !hasMatches;
+      list.hidden = !hasMatches;
+    });
+  }
+
+  readingSearch.addEventListener('input', filterReadingList);
+  document.querySelector('.reading-filter').hidden = false;
+</script>
