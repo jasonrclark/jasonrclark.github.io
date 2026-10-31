@@ -56,3 +56,14 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 48em) {
+  .reading-toolbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .reading-filter {
+    margin-left: 0;
+  }
+}
