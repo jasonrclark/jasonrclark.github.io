@@ -6,12 +6,9 @@ layout: default
 
 <br/>
 <div class="reading-toolbar">
-  <p>Recommendations in <b>bold</b></p>
+  <p>Recommendations in <strong>bold</strong></p>
   <div class="reading-filter" role="search" hidden>
     <input id="reading-search" type="search" aria-label="Filter reading list" placeholder="Filter reading list">
-    <button id="reading-clear" type="button" aria-label="Clear reading filter" title="Clear reading filter">
-      <i class="fa fa-times" aria-hidden="true"></i>
-    </button>
   </div>
 </div>
 
@@ -1379,10 +1376,5 @@ layout: default
   }
 
   readingSearch.addEventListener('input', filterReadingList);
-  document.getElementById('reading-clear').addEventListener('click', () => {
-    readingSearch.value = '';
-    filterReadingList();
-    readingSearch.focus();
-  });
   document.querySelector('.reading-filter').hidden = false;
 </script>
