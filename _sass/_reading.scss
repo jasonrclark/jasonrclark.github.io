@@ -1,0 +1,29 @@
+.reading-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.reading-filter {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  margin-left: auto;
+  max-width: 100%;
+  font-size: 1rem;
+
+  input {
+    min-width: 0;
+    width: 12rem;
+  }
+
+  &[hidden] {
+    display: none;
+  }
+}
