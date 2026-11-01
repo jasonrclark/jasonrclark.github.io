@@ -1,8 +1,3 @@
-{% comment %}
-  Shared filter textbox. Params: id, label, container (CSS selector of the
-  filterable region), item (CSS selector of filterable items), group
-  (optional CSS selector of lists whose preceding heading hides with them).
-{% endcomment %}
 <div class="list-filter" role="search" hidden>
   <input id="{{ include.id }}" type="search" aria-label="{{ include.label }}" placeholder="{{ include.label }}"
     data-container="{{ include.container }}" data-item="{{ include.item }}" data-group="{{ include.group }}">
