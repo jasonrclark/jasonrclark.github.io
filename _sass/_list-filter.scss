@@ -1,4 +1,4 @@
-.reading-toolbar {
+.list-toolbar {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -10,7 +10,7 @@
   }
 }
 
-.reading-filter {
+.list-filter {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -40,12 +40,12 @@
 }
 
 @media screen and (max-width: 48em) {
-  .reading-toolbar {
+  .list-toolbar {
     flex-direction: column;
     text-align: center;
   }
 
-  .reading-filter {
+  .list-filter {
     margin-left: 0;
   }
 }
