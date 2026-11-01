@@ -5,6 +5,7 @@ layout: default
 {{ content }}
 
 <div class="list-toolbar">
+  <p>{{ page.intro }}</p>
   {% include list-filter.html id="post-search" label="Filter posts" container="#post-list" item=".post-list-item" %}
 </div>
 
