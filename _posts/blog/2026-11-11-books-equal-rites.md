@@ -12,7 +12,7 @@ I have a confession to make. Although I'm a deep and abiding sci-fi and fantasy 
 
 I know a lot of folks who have expressed intimidation at diving into a series that's over forty books long. While I get that, that was never really my hesitation. It was well-known from even casual contact that it wasn't like forty books you had to read in perfect order or it wouldn't make sense. If anything, Discworld has been held up as one of the series most amenable to diving in at almost any point. While connected by the world, many of the books are eminently standalone.
 
-No, the bigger reason for me was the humor. I just don't come to books often looking to laugh. There are exceptions of course. I remember being suitably amused with _Catch 22_ (really ought to read that one again) and I have a deep and abiding love for Douglas Adams. The later honestly would make you think Pratchett would be right up my alley, but the time never quite felt right.
+No, the bigger reason for me was the humor. I just don't come to books often looking to laugh. There are exceptions of course. I remember being suitably amused with _Catch 22_ (really ought to read that one again) and I have a deep love for Douglas Adams. The later honestly would make you think Pratchett would be right up my alley, but the time never quite felt right.
 
 Until now. Between some more ponderous classic volumes, I needed a light refreshing breath. Plus, the exceptionally long hold it took to get _Equal Rites_ from the library had finally swung in my favor, so I dove in.
 
